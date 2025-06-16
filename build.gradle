@@ -158,6 +158,9 @@ bootJar {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
+bootRun {
+    mainClass = 'tv.codely.apps.Starter'
+}
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web:3.1.5'
